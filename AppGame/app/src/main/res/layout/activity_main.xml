@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.appgame.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bgstart" >
+
+    <ImageButton
+        android:id="@+id/btnSart"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/batdauchoi"
+        android:layout_marginBottom="20dp"/>
+        
+       <ImageButton
+       android:id="@+id/btnHuongDan"
+       android:layout_width="220dp"
+       android:layout_height="50dp"
+       android:background="@drawable/huongdan"
+       android:layout_marginBottom="20dp"/>
+       
+     <ImageButton
+        android:id="@+id/btnDiemCao"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/diemcao"
+        android:layout_marginBottom="20dp"/>
+        
+        <ImageButton
+        android:id="@+id/btnThoat"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/thoat"/>
+
+</LinearLayout>
